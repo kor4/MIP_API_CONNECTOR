@@ -9,6 +9,6 @@
 1. Скопируйте файлы проекта в папку.
 2. Выполните:
 
-bash или powershell 
-cd "папка проекта"
+bash или powershell   
+cd "папка проекта"  
 dotnet run --project API_MIP_CONNECTOR.csproj
