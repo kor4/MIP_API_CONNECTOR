@@ -14,7 +14,7 @@ namespace MIP_API_CONNECTOR.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetByUser([FromQuery] string username)
+        public IActionResult GetByUser([FromQuery] string? username)
         {
             if (string.IsNullOrWhiteSpace(username)) {
                 return BadRequest("Требуется параметр username");
